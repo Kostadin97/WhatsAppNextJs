@@ -18,7 +18,7 @@ function Chat({ id, users }) {
   };
 
   const recipient = recipientSnapshot?.docs?.[0]?.data();
-  console.log(recipient);
+
   const recipientEmail = getRecipientEmail(users, user);
 
   return (
